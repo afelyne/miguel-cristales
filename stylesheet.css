@@ -1,0 +1,11 @@
+.slider{
+	background: url("images/bg-1.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.logo-xl{
+	background: url("images/logo-xl.png");
+	height: 80vh;
+}
