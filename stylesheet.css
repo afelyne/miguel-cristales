@@ -7,5 +7,12 @@
 
 .logo-xl{
 	background: url("images/logo-xl.png");
-	height: 80vh;
+}
+
+.border-right{
+	border-right: 1px solid black;
+}
+
+.service{
+	background-color: rgb(1, 91, 126);
 }
