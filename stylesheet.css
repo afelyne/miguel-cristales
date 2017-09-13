@@ -6,6 +6,8 @@
 }
 
 .logo-xl{
+	position: relative;
+	height: 80vh;
 	background: url("images/logo-xl.png");
 }
 
@@ -13,6 +15,25 @@
 	border-right: 1px solid black;
 }
 
-.service{
+.servicios{
 	background-color: rgb(1, 91, 126);
+}
+
+.clientes{
+	background: url("images/logo-xl.png");
+	background-size: cover;
+	background-position: bottom;
+}
+
+.aliados{
+	background-color:rgb(223, 234, 238);
+}
+
+.overlay-computer {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url("images/img-1.png") no-repeat right bottom;
 }
