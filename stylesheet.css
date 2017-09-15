@@ -1,3 +1,19 @@
+.sans {
+	font-family: 'Nunito', sans-serif;
+}
+
+.serif {
+	font-family: 'Cinzel', serif;
+}
+
+a, span, p, ul, li {
+	font-family: 'Nunito', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Cinzel', serif;
+}
+
 .slider{
 	background: url("images/bg-1.jpg");
 	height: 100vh;
@@ -11,8 +27,12 @@
 	background: url("images/logo-xl.png");
 }
 
-.border-right{
-	border-right: 1px solid black;
+.border-right {
+	border-right: 1px solid #84878c;
+}
+
+.border-left {
+	border-left: 1px solid #84878c;
 }
 
 .servicios{
@@ -38,10 +58,42 @@
 	background: url("images/img-1.png") no-repeat right bottom;
 }
 
-.filosofia{
-	background: url("images/bg-2.jpg");
-	height: 90vh;
-	background-position: center;
-	background-size: cover;
+/* Custom styles */
 
+.mc-cv {
+	color: #84878c;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.mc-dropdown {
+	background: #e3e4e5;
+	border: none;
+	padding: 0;
+}
+
+.line {
+	border-top: 1px solid #244677;
+	margin: 0 30px;
+	margin-bottom: 15px;
+}
+
+.mc-hamburguer {
+	cursor: pointer;
+	border: none;
+	background: none;
+}
+
+.mc-dropdown-title {
+	padding: 0 15px 7px 15px;
+	margin-top: 30px;
+	text-align: center;
+	font-size: 16px;
+	color: #244677;
+}
+
+.mc-dropdown-item {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
