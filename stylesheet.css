@@ -37,3 +37,11 @@
 	left: 0;
 	background: url("images/img-1.png") no-repeat right bottom;
 }
+
+.filosofia{
+	background: url("images/bg-2.jpg");
+	height: 90vh;
+	background-position: center;
+	background-size: cover;
+
+}
