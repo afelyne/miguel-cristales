@@ -49,6 +49,13 @@ h1, h2, h3, h4, h5, h6 {
 	background-color:rgb(223, 234, 238);
 }
 
+.filosofia{
+	background: url("images/bg-2.jpg");
+	height: 90vh;
+	background-size: cover;
+	background-position: center;
+}
+
 .overlay-computer {
 	width: 100%;
 	height: 100%;
@@ -96,4 +103,30 @@ h1, h2, h3, h4, h5, h6 {
 .mc-dropdown-item {
 	padding-top: 1rem;
 	padding-bottom: 1rem;
+}
+
+.footer{
+	background-color: rgb(195, 199, 208);
+}
+
+.blue{
+	color: rgb(1, 91, 126);
+	margin-top: 5px;
+}
+
+.margin-1{
+	margin-right: 18px;
+}
+
+p.blue{
+	margin: 0;
+}
+
+.inblock{
+	display: inline-block;
+}
+
+.mc-direccion{
+	width: calc(100% - 35px);
+	margin-bottom: 0;
 }
