@@ -11,11 +11,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="stylesheet.css">
+    <!--Title-->
+    <title>Miguel Cristales</title>
 </head>
-
-<!--Title-->
-<title>Miguel Cristales</title>
-
 <body>
 
     <!--header-->
@@ -43,9 +41,9 @@
                     </div>
                 </div>
                 <div class="col-6 mt-3">
-                    <img src="images/logo-color.png" alt="" height="60" class="mt-3 mr-auto ml-auto d-flex justify-content-center">
+                  <a href="#"><img src="images/logo-color.png" alt="" height="60" class="mt-3 mr-auto ml-auto d-flex justify-content-center"></a>
                 </div>
-                <div class="col-3 mt-4 d-flex align-items-center justify-content-center mt-3">    
+                <div class="col-3 mt-4 d-flex align-items-center justify-content-center mt-3">
 	                <a href="" class="d-none d-md-block"><img src="images/f-icon.png" alt="" class=" pr-2 mr-2 border-right"></a>
 	                <a href="" class="d-none d-md-block"><img src="images/in-icon.png" alt=""></a><a href="#" class="mc-cv d-none d-md-block"><span>Curriculum</span></a><span class="border-right"></span>
 	                <a href="" class="d-none d-md-block"><img src="images/mail-icon.png" alt="" class="ml-2 pl-2 border-left"></a>
@@ -56,7 +54,7 @@
 	        </div>
 	        <div class="row">
 	            <div class="col-12">
-	                <img src="images/texto.png" alt="" class="mt-5 pt-5 ml-5 pl-5">
+	                <img src="images/texto.png" alt="" class="mt-6 pt-5 ml-5 pl-5">
 	            </div>
 	        </div>
 	    </div>
@@ -99,8 +97,12 @@
 
 <div class="container-fluid clientes pb-5 pt-5">
     <div class="container pt-5">
-        <h2 class="pl-5">CLIENTES SATISFECHOS</h2>
-        <h2 class="ml-5 pl-5">Y LIDERES DE OPINION</h2>
+        <div class="row">
+          <div class="col-12 pl-5">
+            <h2 class="pl-5">CLIENTES <span class="blue-font serif">SATISFECHOS</span></h2>
+            <h2 class="ml-5 pl-5">Y <span class="blue-font serif">LIDERES</span> DE OPINION</h2>
+          </div>
+        </div>
     </div>
     <div class="container d-flex justify-content-center mt-5">
         <img src="images/videos.png" alt="">
@@ -112,7 +114,11 @@
 
 <div class="container-fluid aliados">
     <div class="container pt-5 pb-5">
-        <h2>ALIADOS ESTRATÉGICOS</h2>
+        <div class="row">
+          <div class="col 8 d-flex justify-content-start pl-5">
+            <h2><span class="serif gray-font">ALIADOS</span> <span class="serif blue-font">ESTRATÉGICOS</span ></h2>
+          </div>
+        </div>
         <div class="row">
             <div class="col 8 d-flex justify-content-center mt-5">
                 <img src="images/plega.png" alt="" class="mr-5">
@@ -136,28 +142,42 @@
 </div>
 
 <div class="container-fluid filosofia pt-5">
-	<div class="container pt-5">	
+	<div class="container pt-5">
+      <div class="blue-half-1"></div>
+      <div class="blue-half-2"></div>
 			<div class="row">
 				<div class="col-12 ml-5 pl-5">
-					<h1>FILOSIFÍA</h1>
+					<h1>FILOSOFÍA</h1>
 					<h1 class="ml-5">EMPRESARIAL</h1>
 				</div>
 			</div>
 			<div class="row mt-5">
 				<div class="col-6 d-flex justify-content-end">
-					<div class="text-center mr-5">	
+					<!-- <div class="text-center mr-5">
 						<p>MISIÓN</p>
 						<p class="mt-5">VISIÓN 2022</p>
 						<p class="mt-5">PROPUESTA DE VALOR</p>
 						<p class="mt-5">VALORES</p>
-					</div>
+					</div> -->
+          <div class="nav flex-column nav-pills filosofia-pills text-center" id="v-pills-tab" role="tablist">
+            <a class="pr-5 serif nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-expanded="true">MISIÓN</a>
+            <a class="pr-5 serif nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-expanded="true">VISIÓN 2022</a>
+            <a class="pr-5 serif nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-expanded="true">PROPUESTA DE VALOR</a>
+            <a class="pr-5 serif nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-expanded="true">VALORES</a>
+          </div>
 				</div>
-				<div class="col-6">
-					<div class="row">
+				<div class="col-4">
+					<!-- <div class="row">
 						<div class="col-md-6">
 							<p class="mt-5">Miguel Cristales y Consultores es el despacho que tiene el mayor reconocimiento y el mayor número de financiamientos obtenido en el Estado de Puebla</p>
 						</div>
-					</div>
+					</div> -->
+          <div class="filosofia-tab-content tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"><p class="pl-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur perspiciatis ipsam quisquam quia illum, tempora iste molestiae quae aut! Quia, quod delectus ea sit nam atque fugit aperiam illo esse.</p></div>
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"><p class="pl-5">Miguel Cristales y Consultores es el despacho que tiene el mayor reconocimiento y el mayor número de financiamientos obtenido en el Estado de Puebla.</p></div>
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"><p class="pl-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed maiores, repudiandae sunt fugiat velit accusamus odit ipsa quaerat, quo error doloremque exercitationem illum dolorum quam totam earum architecto. Unde, officiis?.</p></div>
+            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab"><p class="pl-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis itaque necessitatibus, ut aperiam sint aut natus impedit, id dignissimos odit, minima laudantium dolor non minus nobis quidem officiis voluptatem excepturi.</p></div>
+          </div>
 				</div>
 			</div>
 
@@ -168,7 +188,7 @@
 	<div class="row pt-5 pb-5">
 		<div class="col-6 d-flex justify-content-end align-items-center pr-5">
 			<a href=""><img src="images/f-blue-icon.png" alt="" class="mr-2 pr-2 border-right"></a>
-			<a href=""><img src="images/in-icon.png" alt="" class="mr-2"></a><a href="" class="blue"><span>Curriculum</span></a>
+			<a href=""><img src="images/in-blue-icon.png" alt="" class="mr-2"></a><a href="" class="blue"><span>Curriculum</span></a>
 		</div>
 		<div class="col-6">
 			<div class="col-6">
@@ -190,7 +210,7 @@
 
 			</div>
 
-				
+
 
 		</div>
 	</div>

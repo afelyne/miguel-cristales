@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 .logo-xl{
 	position: relative;
 	height: 80vh;
+	min-height: 500px;
 	background: url("images/logo-xl.png");
 }
 
@@ -45,6 +46,10 @@ h1, h2, h3, h4, h5, h6 {
 	background-position: bottom;
 }
 
+.clientes h2 {
+	color: #84878c;
+}
+
 .aliados{
 	background-color:rgb(223, 234, 238);
 }
@@ -52,8 +57,39 @@ h1, h2, h3, h4, h5, h6 {
 .filosofia{
 	background: url("images/bg-2.jpg");
 	height: 90vh;
+	min-height: 500px;
 	background-size: cover;
 	background-position: center;
+	position: relative;
+}
+
+.filosofia h1 {
+	color: #244677;
+}
+
+.filosofia-pills.nav-pills .nav-link {
+	background: none;
+	color: white;
+	/*font-size: 18px;*/
+}
+
+.filosofia-pills.nav-pills .nav-link.active {
+	background: none;
+	color: #244677;
+}
+
+.filosofia-pills.nav-pills .nav-link.active::after {
+	width: 100px;
+	height: 2px;
+	border-bottom: 1px solid #244677;
+	display: block;
+	content: "";
+	margin: 0 auto;
+}
+
+.filosofia-tab-content .tab-pane p {
+	color: white;
+	font-size: 18px;
 }
 
 .overlay-computer {
@@ -63,6 +99,14 @@ h1, h2, h3, h4, h5, h6 {
 	top: 0;
 	left: 0;
 	background: url("images/img-1.png") no-repeat right bottom;
+}
+
+.blue-font {
+	color: #244677;
+}
+
+.gray-font {
+	color: #84878c;
 }
 
 /* Custom styles */
@@ -129,4 +173,22 @@ p.blue{
 .mc-direccion{
 	width: calc(100% - 35px);
 	margin-bottom: 0;
+}
+
+.blue-half-1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background: rgba(161, 195, 208,0.5);
+}
+
+.blue-half-2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50%;
+	height: 100%;
+	background: rgba(0, 91, 127, 0.5);
 }
