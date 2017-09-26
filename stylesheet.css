@@ -38,6 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .servicios{
 	background-color: rgb(1, 91, 126);
+	position: relative;
 }
 
 .clientes{
@@ -191,4 +192,17 @@ p.blue{
 	width: 50%;
 	height: 100%;
 	background: rgba(0, 91, 127, 0.5);
+}
+
+.menu-startup:hover{
+	background: rgb(1, 60, 104);
+}
+
+.menu-startup{
+	height: 100%;
+}
+
+.border-white{
+	border-right: rgb(0, 0, 0) solid 1px;
+	border-left: rgb(0, 0, 0) solid 1px;
 }
