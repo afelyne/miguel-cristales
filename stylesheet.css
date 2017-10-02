@@ -14,6 +14,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Cinzel', serif;
 }
 
+.fixed-top {
+	background: rgba(255, 255, 255, 0.5);
+}
+
 .slider{
 	background: url("images/bg-1.jpg");
 	height: 100vh;
@@ -23,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo-xl{
 	position: relative;
-	height: 80vh;
+	height: 600px;
 	min-height: 500px;
 	background: url("images/logo-xl.png");
 }
@@ -57,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .filosofia{
 	background: url("images/bg-2.jpg");
-	height: 90vh;
+	height: 550px;
 	min-height: 500px;
 	background-size: cover;
 	background-position: center;
@@ -99,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: url("images/img-1.png") no-repeat right bottom;
+	background: url("images/img-1.png") no-repeat 60% bottom;
 }
 
 .blue-font {
@@ -198,11 +202,53 @@ p.blue{
 	background: rgb(1, 60, 104);
 }
 
+.menu-startup svg>g{
+	opacity: 0.53;
+}
+
+.menu-startup:hover svg>g{
+	opacity: 1;
+}
+
+.menu-startup:hover svg path{
+	fill: white;
+}
+
 .menu-startup{
 	height: 100%;
 }
 
-.border-white{
+.menu-startup h5{
+	line-height: 1.5;
+	width: 100%;
+}
+
+.menu-startup .menu-title {
+	display: flex;
+	width: 100%;
+	vertical-align: middle;
+	height: 80px;
+	align-items: center;
+}
+
+.border-white {
+	border-top: none;
+	border-bottom: none;
 	border-right: rgb(0, 0, 0) solid 1px;
 	border-left: rgb(0, 0, 0) solid 1px;
+}
+
+.bottom-to-top {
+    border-width: 1px;
+    border-style: solid;
+    -webkit-border-image:
+      -webkit-gradient(linear, 0 100%, 0 0, from(white), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image:
+      -webkit-linear-gradient(bottom, white, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(bottom, white, rgba(0, 0, 0, 0)) 1 100%;
+    -o-border-image:
+      -o-linear-gradient(bottom, white, rgba(0, 0, 0, 0)) 1 100%;
+    border-image:
+      linear-gradient(to top, white, rgba(0, 0, 0, 0)) 1 100%;
 }
