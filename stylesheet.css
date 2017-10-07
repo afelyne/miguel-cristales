@@ -200,6 +200,7 @@ p.blue{
 
 .menu-startup:hover{
 	background: rgb(1, 60, 104);
+	cursor: pointer;
 }
 
 .menu-startup svg>g{
@@ -251,4 +252,59 @@ p.blue{
       -o-linear-gradient(bottom, white, rgba(0, 0, 0, 0)) 1 100%;
     border-image:
       linear-gradient(to top, white, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.tt-u {
+	text-transform: uppercase;
+}
+
+/* modal */
+
+.cursoModal {
+	/*background: rgb(1, 60, 104);*/
+	background: rgb(1, 91, 126);
+}
+.cursoModal .modal-dialog .modal-content{
+	background: rgb(1, 60, 104);
+	color: white;
+}
+
+.cursoModal .modal-dialog .modal-content .close{
+	cursor: pointer;
+	color: white;
+}
+
+.mc-btn {
+	background: none;
+	border: 1px solid white;
+	color: white;
+}
+
+.modal-header h5{
+	font-size: 24px;
+}
+
+.modal-body p {
+	line-height: 1.5;
+	font-size: 14px;
+}
+
+.modal-header,
+.modal-footer,
+.modal-body {
+	border: none;
+}
+
+.line-modal {
+	width: 200px;
+	border-bottom: 1px solid white;
+	height: 2px;
+	margin-left: 15px;
+}
+
+@media (min-width: 992px){
+	.modal-lg {
+    max-width: 1000px;
+	}
+
 }
