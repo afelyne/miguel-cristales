@@ -306,6 +306,7 @@ p.blue{
 	background: none;
 	border: 1px solid white;
 	color: white;
+	cursor: pointer;
 }
 
 .modal-header h5{
@@ -328,6 +329,36 @@ p.blue{
 	border-bottom: 1px solid white;
 	height: 2px;
 	margin-left: 15px;
+}
+
+#emailModal {
+	z-index: 1060;
+	background: rgba(255, 255, 255, 0.6);
+}
+
+#emailModal .modal-dialog .modal-content{
+	background: rgb(1, 60, 104);
+	color: white;
+}
+
+#emailModal .modal-dialog .modal-content .close{
+	cursor: pointer;
+	color: white;
+}
+
+#emailModal {
+	z-index: 1060;
+	background: rgba(255, 255, 255, 0.6);
+}
+
+#emailModal .modal-dialog .modal-content{
+	background: #88b1c3;
+	color: white;
+}
+
+#emailModal .modal-dialog .modal-content .close{
+	cursor: pointer;
+	color: white;
 }
 
 @media (min-width: 992px){
