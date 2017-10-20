@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .slider{
-	background: url("images/bg-1.jpg");
+	background: url("images/bg-11.jpg");
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .filosofia{
-	background: url("images/bg-2.jpg");
+	background: url("images/equipo2_gris.jpg");
 	height: 550px;
 	min-height: 500px;
 	background-size: cover;
